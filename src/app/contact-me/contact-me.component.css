@@ -1,0 +1,44 @@
+img{
+    width: 15%;
+    margin-left: 40%;
+}
+.phone{
+    color: rgb(48, 47, 47)smoke;
+    margin-top: 1%;
+    font-size: 30px;
+    margin-left: 39%;
+
+}
+.hr1 {
+    border-color: green; /* Cambia el color */
+    border-width: 2px;  /* Cambia el grosor */
+    height: 2px;       /* Cambia la altura */
+  }
+.line-container {
+    width: 5%;
+    margin-left:45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.p1{
+    font-size: 20px;
+    margin-left: 42%;
+}
+.p2{
+    font-size: 20px;
+    margin-left: 40%;
+    
+}
+.primerA{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 43%;
+    color: white;
+    background-color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    border-color: transparent;
+}

@@ -1,0 +1,78 @@
+.mainDiv{
+    background-color: whitesmoke;
+    background-image: url('https://i.pinimg.com/564x/88/2e/43/882e433ad1b018783d35a5092ed04a57.jpg');
+}
+.p1{
+    margin-top: 5%;
+    margin-left: 44%;
+font-size: 15px;
+}
+.p2{
+    font-size: 50px;
+    margin-left: 40%;
+    padding-bottom: 5%;
+}
+.mainDiv1 {
+    display: flex; /* Hace que los elementos hijos se alineen en una fila */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+  }
+  
+  .mainDiv1 > div {
+    flex: 1; /* Permite que cada div ocupe el mismo espacio disponible horizontalmente */
+  }
+  img{
+    width: 80%;
+  }
+.p3{
+    font-size: 18px;
+}
+.p4{
+    font-size: 40px;
+}
+.p5{
+    font-size: 17px;
+    color: gray;
+}
+.p6{
+    margin-top: 5%;
+    color: gray;
+}
+.secondDiv{
+    margin-left: 10%;
+}
+.p7{
+    margin-top: 5%;
+    margin-left: 44%;
+font-size: 15px;
+}
+.p8{
+    font-size: 30px;
+    margin-left: 34%;
+    padding-bottom: 5%;
+}
+.chulito{
+    background-color: #1DB85C;
+    border-radius: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+
+}
+.infoCheck{
+    margin-left: 10%;
+}
+.p9{
+    margin-bottom: 2%;
+}
+.divCheckmark{
+    padding-bottom: 5%;
+}
+.secondDiv{
+    margin-top: 2%;
+}
+.mainImage{
+    margin-top: 2%;
+    border-radius: 5px;
+}

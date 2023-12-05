@@ -1,0 +1,18 @@
+.mainDiv{
+    background-color: whitesmoke;
+    /* background-image: url('https://i.pinimg.com/564x/88/2e/43/882e433ad1b018783d35a5092ed04a57.jpg'); */
+}
+.p1{
+    margin-top: 5%;
+    margin-left: 44%;
+    font-size: 15px;
+}
+.p2{
+    font-size: 50px;
+    margin-left: 40%;
+    padding-bottom: 5%;
+}
+#button1:active, #button1:focus{
+    outline: none;
+    border: none;
+  }
