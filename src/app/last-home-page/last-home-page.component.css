@@ -1,50 +1,217 @@
-.uno{
-    font-size: 20px;
-    margin-left: 45%;
+  /*mobile*/
+@media screen and (max-width: 640px) { 
+    .uno{
+        padding-top: 10%;
+        font-size: 20px;
+        margin-left: 35%;
+    }
+    
+    .dos{
+        font-size: 35px;
+        margin-left: 35%;
+    }
+    .hr1 {
+        border-color: green; /* Cambia el color */
+        border-width: 2px;  /* Cambia el grosor */
+        height: 2px;       /* Cambia la altura */
+      }
+    .line-container {
+        width: 5%;
+        margin-left:10%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        margin-left: 47%;
+    }
+    .image-container {
+    }
+    
+    .image-wrapper {
+        margin-right: 10px; /* Añade un margen entre las imágenes si es necesario */
+    }
+    img{
+        margin-left: 15%;
+        margin-right: 10%;
+        width: 70%;
+        border-radius: 8px;
+    }
+    
+    body{
+        background-color: #f8f4ec;
+    }
+    button{
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+    #button1:active, #button1:focus{
+        outline: none;
+        border: none;
+      } 
+    
 }
 
-.dos{
-    font-size: 35px;
-    margin-left: 40%;
-}
-.hr1 {
-    border-color: green; /* Cambia el color */
-    border-width: 2px;  /* Cambia el grosor */
-    height: 2px;       /* Cambia la altura */
-  }
-.line-container {
-    width: 5%;
-    margin-left:10%;
-    margin-top: 1%;
-    margin-bottom: 5%;
-    margin-left: 47%;
-}
-.image-container {
-    display: flex; /* Esto hará que los contenedores de imágenes se alineen en una fila */
+
+/*laptop*/
+@media (min-width: 1280px) and (max-width: 1535px)  { 
+    .uno{
+        font-size: 20px;
+        margin-left: 45%;
+    }
+    
+    .dos{
+        font-size: 35px;
+        margin-left: 40%;
+    }
+    .hr1 {
+        border-color: green; /* Cambia el color */
+        border-width: 2px;  /* Cambia el grosor */
+        height: 2px;       /* Cambia la altura */
+      }
+    .line-container {
+        width: 5%;
+        margin-left:10%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        margin-left: 47%;
+    }
+    .image-container {
+        display: flex; /* Esto hará que los contenedores de imágenes se alineen en una fila */
+    }
+    
+    .image-wrapper {
+        display: inline-block; /* Esto hará que cada contenedor de imagen se muestre en línea */
+        margin-right: 10px; /* Añade un margen entre las imágenes si es necesario */
+    }
+    img{
+        margin-left: 15%;
+        margin-right: 10%;
+        width: 70%;
+        border-radius: 8px;
+    }
+    
+    body{
+        background-color: #f8f4ec;
+    }
+    button{
+        margin-top: 2%;
+        margin-left: 45%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+    #button1:active, #button1:focus{
+        outline: none;
+        border: none;
+      } 
+    
 }
 
-.image-wrapper {
-    display: inline-block; /* Esto hará que cada contenedor de imagen se muestre en línea */
-    margin-right: 10px; /* Añade un margen entre las imágenes si es necesario */
-}
-img{
-    margin-left: 15%;
-    margin-right: 10%;
-    width: 70%;
-    border-radius: 8px;
+/*tablet*/
+@media (min-width: 641px) and (max-width: 1023px) { 
+    .uno{
+        font-size: 20px;
+        margin-left: 45%;
+    }
+    
+    .dos{
+        font-size: 35px;
+        margin-left: 40%;
+    }
+    .hr1 {
+        border-color: green; /* Cambia el color */
+        border-width: 2px;  /* Cambia el grosor */
+        height: 2px;       /* Cambia la altura */
+      }
+    .line-container {
+        width: 5%;
+        margin-left:10%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        margin-left: 47%;
+    }
+    .image-container {
+        display: flex; /* Esto hará que los contenedores de imágenes se alineen en una fila */
+    }
+    
+    .image-wrapper {
+        display: inline-block; /* Esto hará que cada contenedor de imagen se muestre en línea */
+        margin-right: 10px; /* Añade un margen entre las imágenes si es necesario */
+    }
+    img{
+        margin-left: 15%;
+        margin-right: 10%;
+        width: 70%;
+        border-radius: 8px;
+    }
+    
+    body{
+        background-color: #f8f4ec;
+    }
+    button{
+        margin-top: 2%;
+        margin-left: 45%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+    #button1:active, #button1:focus{
+        outline: none;
+        border: none;
+      } 
+    
 }
 
-body{
-    background-color: #f8f4ec;
+@media (min-width: 1024px) { 
+    .uno{
+        font-size: 20px;
+        margin-left: 45%;
+    }
+    
+    .dos{
+        font-size: 35px;
+        margin-left: 40%;
+    }
+    .hr1 {
+        border-color: green; /* Cambia el color */
+        border-width: 2px;  /* Cambia el grosor */
+        height: 2px;       /* Cambia la altura */
+      }
+    .line-container {
+        width: 5%;
+        margin-left:10%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        margin-left: 47%;
+    }
+    .image-container {
+        display: flex; /* Esto hará que los contenedores de imágenes se alineen en una fila */
+    }
+    
+    .image-wrapper {
+        display: inline-block; /* Esto hará que cada contenedor de imagen se muestre en línea */
+        margin-right: 10px; /* Añade un margen entre las imágenes si es necesario */
+    }
+    img{
+        margin-left: 15%;
+        margin-right: 10%;
+        width: 70%;
+        border-radius: 8px;
+    }
+    
+    body{
+        background-color: #f8f4ec;
+    }
+    button{
+        margin-top: 2%;
+        margin-left: 45%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+    #button1:active, #button1:focus{
+        outline: none;
+        border: none;
+      } 
 }
-button{
-    margin-top: 2%;
-    margin-left: 45%;
-}
-button{
-    margin-bottom: 2%;
-}
-#button1:active, #button1:focus{
-    outline: none;
-    border: none;
-  } 

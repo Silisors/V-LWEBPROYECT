@@ -12,4 +12,9 @@ export class NavComponent {
   navigateToAbout() {
     this.router.navigate(['/about']);
   }
+  isResponsive = false;
+
+  toggleNavbar() {
+    this.isResponsive = !this.isResponsive;
+  }
 }

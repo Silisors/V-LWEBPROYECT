@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 </head>
 <body>
     <div class="navbar">
-        <div class="col columns-3">
-            <div>
+        <div class="row">
+            <div class="column">
                 <img src="../../assets/image-removebg-preview (1).png" alt="">
             </div>
-            <div class="nav-links">   
+            <div class="nav-links column">   
                 <button  id="miBoton" routerLink="/" class="ml-3 mr-3 text-green-500"><strong>Home</strong></button>
                 <button  id="miBoton" routerLink="/about" class="ml-3 mr-3"><strong>About</strong></button>
                 <button  id="miBoton" routerLink="/services" class="ml-3 mr-3"><strong>Services</strong></button>
@@ -16,11 +16,29 @@
                 <button  id="miBoton" routerLink="/reviews" class="ml-3 mr-3"><strong>Reviews</strong></button>
                 <button  id="miBoton" class="ml-3 mr-3"><strong>Contact</strong></button>
             </div>
-            <div>
+            <div class="column">
                 <button class="button1"><strong>Get a Quote</strong></button>
             </div>
         </div>
     </div>
-    <!-- Resto del contenido de la página -->
 </body>
-</html>
+</html> -->
+
+<!-- component -->
+<nav class="bg-white shadow dark:bg-gray-800">
+    <div class="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
+        <a routerLink="/" class="text-green-600 text-green-600 border-b-2 border-green-500 mx-1.5 sm:mx-6"><strong>Home</strong></a>
+
+        <a  routerLink="/about" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"><strong>About</strong></a>
+
+        <a routerLink="/services" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"><strong>Services</strong></a>
+
+        <a routerLink="/projects" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"><strong>Projects</strong></a>
+
+        <!-- <a routerLink="/reviews" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"><strong>Reviews</strong></a> -->
+
+
+        <button class="button1"><strong>Get a Quote</strong></button>
+
+    </div>
+</nav>

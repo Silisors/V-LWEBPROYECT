@@ -1,47 +1,128 @@
-/* pantalla laptop */
+  /* MOBILE */
+  @media screen and (max-width: 640px) {
+    nav{
+      position: sticky;
+      top: 0;
+    }
+    .column {
+      float: left;
+      width: 33.33%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 img{
-    width: 25%;
-    padding-top: 1%;
-    margin-left: 29%;
+  width: 50%;
+  padding-top: 1%;
+  margin-left: 29%;
 }
 
 .nav-links{
-    display: flex;
-    padding-top: 4%;
-    font-size: 17px;
+  display: flex;
+  padding-top: 4%;
+  font-size: 17px;
 }
 .button1{
-    color: white;
-    background-color: #1D924E;
-    border-radius: 8px;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-left: 20%;
-    margin-top: 3%;
-}
-/* Estilo para la barra de navegación */
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 10px; /* Espaciado interior */
-    z-index: 100; /* Asegura que la barra de navegación esté encima de otros elementos */
-    background-color: white;
+  color: white;
+  background-color: #1D924E;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 10px;
 }
 
-/* Estilo para el contenido principal, agregando espacio en la parte superior para evitar que se solape con la barra de navegación */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px; 
+  z-index: 100; 
+  background-color: white;
+ 
+}
+
 body {
-    margin-top: 80px; /* Ajusta esto para que coincida con la altura de tu barra de navegación */
+  margin-top: 80px;
 }  
-  #miBoton:active, #miBoton:focus {
-    outline: none;         
-    border: none;          
+#miBoton:active, #miBoton:focus {
+  outline: none;         
+  border: none;          
+}
+
+.button1:active, .button1:focus{
+  outline: none;
+  border: none;
+}
   }
-  
-  .button1:active, .button1:focus{
-    outline: none;
-    border: none;
+
+
+
+
+
+
+
+
+
+    /* LAPTOP */
+  @media (min-width: 1280px) and (max-width: 1535px)  {
+    nav{
+      position: sticky;
+      top: 0;
+    }
+    .column {
+      float: left;
+      width: 33.33%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+img{
+  width: 25%;
+  padding-top: 1%;
+  margin-left: 29%;
+  margin-top: 1%;
+}
+
+.nav-links{
+  display: flex;
+  padding-top: 1%;
+  font-size: 17px;
+}
+.button1{
+  color: white;
+  background-color: #1D924E;
+  border-radius: 8px;
+  padding: 5px;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  z-index: 100; 
+  background-color: white;
+}
+
+
+body {
+  margin-top: 80px; 
+}  
+#miBoton:active, #miBoton:focus {
+  outline: none;         
+  border: none;          
+}
+
+.button1:active, .button1:focus{
+  outline: none;
+  border: none;
+}
+  }
+
+
+  @media (min-width: 1536px)  {
   }

@@ -1,44 +1,193 @@
-img{
-    width: 15%;
-    margin-left: 40%;
-}
-.phone{
-    color: rgb(48, 47, 47)smoke;
-    margin-top: 1%;
-    font-size: 30px;
-    margin-left: 39%;
 
-}
-.hr1 {
-    border-color: green; /* Cambia el color */
-    border-width: 2px;  /* Cambia el grosor */
-    height: 2px;       /* Cambia la altura */
-  }
-.line-container {
-    width: 5%;
-    margin-left:45%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-.p1{
-    font-size: 20px;
-    margin-left: 42%;
-}
-.p2{
-    font-size: 20px;
-    margin-left: 40%;
+
+@media screen and (max-width: 640px) { 
+    img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .phone{
+        color: rgb(48, 47, 47)smoke;
+        margin-top: 1%;
+        font-size: 25px;
+        margin-left: 25%;
     
+    }
+    .line-container {
+        width: 5%;
+        margin-left:50%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .hr1 {
+        border-color: green; /* Cambia el color */
+        border-width: 2px;  /* Cambia el grosor */
+        height: 2px;       /* Cambia la altura */
+      }
+    .p1{
+        font-size: 20px;
+        margin-left: 30%;
+    }
+    .p2{
+        font-size: 20px;
+        margin-left: 23%;
+        
+    }
+    .primerA{
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 30%;
+        color: white;
+        background-color: green;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 8px;
+        border-color: transparent;
+    }
 }
-.primerA{
-    margin-bottom: 2%;
-    margin-top: 2%;
-    margin-left: 43%;
-    color: white;
-    background-color: green;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 8px;
-    border-color: transparent;
+
+
+/*laptop*/
+@media (min-width: 1280px) and (max-width: 1535px)  {
+    img{
+        width: 15%;
+        margin-left: 40%;
+    }
+    .phone{
+        color: rgb(48, 47, 47)smoke;
+        margin-top: 1%;
+        font-size: 30px;
+        margin-left: 39%;
+    
+    }
+    .hr1 {
+        border-color: green; /* Cambia el color */
+        border-width: 2px;  /* Cambia el grosor */
+        height: 2px;       /* Cambia la altura */
+      }
+    .line-container {
+        width: 5%;
+        margin-left:45%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .p1{
+        font-size: 20px;
+        margin-left: 42%;
+    }
+    .p2{
+        font-size: 20px;
+        margin-left: 40%;
+        
+    }
+    .primerA{
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 43%;
+        color: white;
+        background-color: green;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 8px;
+        border-color: transparent;
+    }
+ }
+
+ /*tablet*/
+@media (min-width: 641px) and (max-width: 1023px) { 
+    img{
+        width: 15%;
+        margin-left: 40%;
+    }
+    .phone{
+        color: rgb(48, 47, 47)smoke;
+        margin-top: 1%;
+        font-size: 30px;
+        margin-left: 39%;
+    
+    }
+    .hr1 {
+        border-color: green; /* Cambia el color */
+        border-width: 2px;  /* Cambia el grosor */
+        height: 2px;       /* Cambia la altura */
+      }
+    .line-container {
+        width: 5%;
+        margin-left:45%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .p1{
+        font-size: 20px;
+        margin-left: 42%;
+    }
+    .p2{
+        font-size: 20px;
+        margin-left: 40%;
+        
+    }
+    .primerA{
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 43%;
+        color: white;
+        background-color: green;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 8px;
+        border-color: transparent;
+    }
 }
+
+@media (min-width: 1024px) { 
+    img{
+        width: 15%;
+        margin-left: 40%;
+    }
+    .phone{
+        color: rgb(48, 47, 47)smoke;
+        margin-top: 1%;
+        font-size: 30px;
+        margin-left: 39%;
+    
+    }
+    .hr1 {
+        border-color: green; /* Cambia el color */
+        border-width: 2px;  /* Cambia el grosor */
+        height: 2px;       /* Cambia la altura */
+      }
+    .line-container {
+        width: 5%;
+        margin-left:45%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .p1{
+        font-size: 20px;
+        margin-left: 42%;
+    }
+    .p2{
+        font-size: 20px;
+        margin-left: 40%;
+        
+    }
+    .primerA{
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 43%;
+        color: white;
+        background-color: green;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 8px;
+        border-color: transparent;
+    }
+}
+
