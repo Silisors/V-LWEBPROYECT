@@ -7,7 +7,7 @@
     }
     .p1{
         margin-top: 5%;
-        margin-left: 44%;
+        margin-left: 50%;
      font-size: 15px;
     }
     .p2{
@@ -22,12 +22,11 @@
     .p3{
          margin-top: 10%;
         font-size: 17px;
-        margin-left: 30%;
+        margin-left: 50%;
         padding-bottom: 2%;
     }
     .p4{
-        font-size: 15px;
-        margin-left: 30%;
+        margin-left: 35%;
         font-size: 30px;
     
     }
@@ -40,6 +39,9 @@
         margin-top: 5%;
         margin-bottom: 5%;
         width: 250px;
+    }
+    .parrafooo{
+        margin-left: 15%;
     }
 }
 
